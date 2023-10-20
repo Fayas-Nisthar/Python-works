@@ -1,0 +1,11 @@
+pre=0
+cur=1
+print(pre)
+print(cur)
+i=1
+while(i<=10):
+    next=pre+cur
+    print(next)
+    pre=cur
+    cur=next
+    i+=1

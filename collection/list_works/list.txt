@@ -1,0 +1,3 @@
+list:-
+       []    Duplicates allowed     mutable    insertion preserved     methods on list_method.py
+                                                                       

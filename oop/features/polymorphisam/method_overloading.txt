@@ -1,0 +1,11 @@
+#same function name or method name, different parameters.
+
+
+class Operation:
+    def add (self,n1,n2):
+        return n1+n2
+    def add (self,n1,n2,n3):
+        return n1+n2+n3
+
+op=Operation()
+print(op.add(10,20,30))
